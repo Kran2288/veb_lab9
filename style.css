@@ -1,0 +1,176 @@
+html {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #445162;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__text {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__text h1 {
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 20%;
+}
+
+.header__text li {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.header_picture img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 55rem;
+  height: 35rem;
+}
+
+/* Основная часть */
+
+.main__head {
+  display: grid;
+  justify-items: center;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main__head h3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 1rem;
+  margin: 2rem;
+}
+
+.scrin {
+  display: flex;
+  flex-direction: column;
+}
+
+.pict1 {
+  height: 30rem;
+  width: 45rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pict2 {
+  height: 30rem;
+  width: 45rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pict3 {
+  height: 30rem;
+  width: 45rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pict4 {
+  height: 30rem;
+  width: 45rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.scrin h4 {
+  margin: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.scrin p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.rara {
+  padding-bottom: 2rem;
+}
+
+/* Подвал */
+footer {
+  background-color: #445162;
+}
+
+.footer__h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.footer__footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 3rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+textarea {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.data p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.email {
+  margin-top: 2rem;
+}
+
+.email:hover {
+  border-bottom: 1px solid pink;
+}
+
+.email a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.email a:hover {
+  color: pink;
+}

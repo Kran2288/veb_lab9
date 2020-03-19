@@ -1,0 +1,89 @@
+@media print {
+    @page {
+        margin: 1cm;
+    }
+
+    header {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .header_picture img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .header__text h1 {
+        font-size: 1.5cm;
+    }
+
+    .header__text li {
+        font-size: 0.5cm;
+    }
+
+    .pict1 {
+        width: 600px;
+        height: 300px;
+    }
+
+    .pict2 {
+        width: 600px;
+        height: 300px;
+    }
+
+    .pict3 {
+        width: 600px;
+        height: 300px;
+    }
+
+    .pict4 {
+        width: 600px;
+        height: 300px;
+    }
+
+    .scrin h4 {
+        margin: 0.5cm;
+        text-align: center;
+        font-size: 0.7cm;
+    }
+
+    .scrin p {
+        text-align: center;
+        font-size: 0.5cm;
+        width: 10cm;
+        margin-left: 4cm;
+    }
+
+    .right-scrin {
+        margin: 0;
+    }
+
+    main {
+        page‐break‐after: always;
+    }
+
+    .footer__h3 {
+        page-break-before: always;
+    }
+
+    input {
+        display: none;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: "("attr(href)")";
+    }
+
+    a[href="http://www.google.com"]:after {
+        content: "";
+    }
+
+    textarea {
+        width: 300px;
+    }
+}
