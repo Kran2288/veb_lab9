@@ -8,74 +8,85 @@
     <link rel="stylesheet" type="text/css" media="print" href="print.css">
     <link rel="stylesheet" href="media.css">
     <title>Abonent</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header id="mainHeader" role="banner">
         <div class=" header__text">
-            <h1>Product name</h1>
-            <ul>
-                <li>Put on this page information about your product</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+            <h1 tabindex="0">Product name</h1>
+            <ul role="list">
+                <li tabindex="1">Put on this page information about your product</li>
+                <li tabindex="2">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li tabindex="3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li tabindex="4">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
             </ul>
         </div>
-        <div class="header_picture">
-            <img src="image/pict1.jpg" alt="">
+        <div class="header_picture" role="img">
+            <img src="image/pict1.jpg" alt="" tabindex="5">
         </div>
     </header>
     <main>
-        <div class="main__head">
-            <h3>Scrinshots</h3>
-            <div class="scrin">
+        <div class="main__head" role="main">
+            <h3 tabindex="6" role="contentinfo">Scrinshots</h3>
+            <div class="scrin" tabindex="7" role="complementary">
                 <img src="image/pict2.jpg" alt="" class="pict1">
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem facere laboriosam
+                <h4 tabindex="8">Lorem ipsum dolor sit amet.</h4>
+                <p tabindex="9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem facere
+                    laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
-            <div class="scrin">
+            <div class="scrin" tabindex="10" role="complementary">
                 <img src="image/pict3.jpg" alt="" class="pict2">
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <p class="right-scrin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem
+                <h4 tabindex="11">Lorem ipsum dolor sit amet.</h4>
+                <p class="right-scrin" tabindex="12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam
+                    ex voluptatem
                     facere laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
-            <div class="scrin"><img src="image/pict4.jpg" alt="" class="pict3">
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem facere laboriosam
+            <div class="scrin" tabindex="13" role="complementary">
+                <img src="image/pict4.jpg" alt="" class="pict3">
+                <h4 tabindex="14">Lorem ipsum dolor sit amet.</h4>
+                <p tabindex="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem
+                    facere laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
-            <div class="scrin"><img src="image/pict5.jpg" alt="" class="pict4">
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <p class="right-scrin rara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem
+            <div class="scrin" tabindex="16" role="complementary">
+                <img src="image/pict5.jpg" alt="" class="pict4">
+                <h4 tabindex="17">Lorem ipsum dolor sit amet.</h4>
+                <p class="right-scrin rara" tabindex="18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                    ullam ex
+                    voluptatem
                     facere laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
         </div>
     </main>
     <footer>
-        <h3 class="footer__h3">Contacts</h3>
+        <h3 class="footer__h3" tabindex="19">Contacts</h3>
         <div class="footer__footer">
-            <div class="form">
+            <div class="form" role="form">
                 <input type="text" placeholder="Введите своё имя:" style="font-size:0.5cm;">
                 <input type="email" placeholder="Введите свою почту:" style="font-size:0.5cm;">
                 <textarea>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ea!</textarea>
-                <button>Send</button>
+                <button role="button">Send</button>
             </div>
             <div class="data">
-                <div class="skype">
+                <div class="skype" tabindex="20">
                     <p>here_your_login_skype</p>
                 </div>
-                <div class="email">
+                <div class="email" tabindex="21">
                     <a href="https://mail.google.com/mail/u/0/#inbox">ashirov.ayrat@gmail.com</a>
                 </div>
-                <div class="skype">
+                <div class="skype" tabindex="22">
                     <p>8-800-555-35-35</p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
