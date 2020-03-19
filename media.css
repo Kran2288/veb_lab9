@@ -286,6 +286,19 @@
 }
 
 @media screen and (min-width: 2100px) {
+  .main__head {
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main__head h3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1rem;
+    margin: 2rem;
+  }
   .header__text h1 {
     color: white;
     font-size: 5rem;
@@ -304,9 +317,7 @@
     width: 50rem;
     height: 40rem;
   }
-  .main__head {
-    display: block;
-  }
+
   .main__head h3 {
     text-align: center;
     font-size: 4rem;
