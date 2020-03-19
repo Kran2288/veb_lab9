@@ -9,35 +9,35 @@
     <link rel="stylesheet" href="media.css">
     <title>Abonent</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header id="mainHeader" role="banner">
-        <div class=" header__text">
-            <h1 tabindex="0">Product name</h1>
+    <header role="banner" id="header">
+        <div class=" header__text" aria-label="menu list">
+            <h1 tabindex="0" aria-label="Product name" id="Product">Product name</h1>
             <ul role="list">
-                <li tabindex="1">Put on this page information about your product</li>
-                <li tabindex="2">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-                <li tabindex="3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li tabindex="4">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+                <li tabindex="1" id="Lorem1">Put on this page information about your product</li>
+                <li tabindex="2" id="Lorem2">Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                <li tabindex="3" id="Lorem3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li tabindex="4" id="Lorem4">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
             </ul>
         </div>
-        <div class="header_picture" role="img">
+        <div class="header_picture" role="img" id="pict1">
             <img src="image/pict1.jpg" alt="" tabindex="5">
         </div>
     </header>
     <main>
         <div class="main__head" role="main">
-            <h3 tabindex="6" role="contentinfo">Scrinshots</h3>
-            <div class="scrin" tabindex="7" role="complementary">
+            <h3 tabindex="6" role="contentinfo" aria-label="Scrinshots" id="Scrin">Scrinshots</h3>
+            <div class="scrin" tabindex="7" role="complementary" aria-label="Scrinshots tags1" id="tag1">
                 <img src="image/pict2.jpg" alt="" class="pict1">
                 <h4 tabindex="8">Lorem ipsum dolor sit amet.</h4>
                 <p tabindex="9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem facere
                     laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
-            <div class="scrin" tabindex="10" role="complementary">
+            <div class="scrin" tabindex="10" role="complementary" aria-label="Scrinshots tags2" id="tag2">
                 <img src="image/pict3.jpg" alt="" class="pict2">
                 <h4 tabindex="11">Lorem ipsum dolor sit amet.</h4>
                 <p class="right-scrin" tabindex="12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam
@@ -45,14 +45,14 @@
                     facere laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
-            <div class="scrin" tabindex="13" role="complementary">
+            <div class="scrin" tabindex="13" role="complementary" aria-label="Scrinshots tags3" id="tag3">
                 <img src="image/pict4.jpg" alt="" class="pict3">
                 <h4 tabindex="14">Lorem ipsum dolor sit amet.</h4>
                 <p tabindex="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam ex voluptatem
                     facere laboriosam
                     doloremque veniam eaque, in nesciunt iure?</p>
             </div>
-            <div class="scrin" tabindex="16" role="complementary">
+            <div class="scrin" tabindex="16" role="complementary" aria-label="Scrinshots tags4" id="tag4">
                 <img src="image/pict5.jpg" alt="" class="pict4">
                 <h4 tabindex="17">Lorem ipsum dolor sit amet.</h4>
                 <p class="right-scrin rara" tabindex="18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
@@ -63,24 +63,27 @@
             </div>
         </div>
     </main>
-    <footer>
-        <h3 class="footer__h3" tabindex="19">Contacts</h3>
+    <footer role="footer" aria-label="footer" id="footer">
+        <h3 class="footer__h3" tabindex="19" aria-label="Contacts" id="Contacts">Contacts</h3>
         <div class="footer__footer">
-            <div class="form" role="form">
-                <input type="text" placeholder="Введите своё имя:" style="font-size:0.5cm;">
-                <input type="email" placeholder="Введите свою почту:" style="font-size:0.5cm;">
-                <textarea>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ea!</textarea>
-                <button role="button">Send</button>
+            <div class="form" role="form" aria-label="forms" id="forms">
+                <input type="text" placeholder="Введите своё имя:" style="font-size:0.5cm;" aria-label="form1"
+                    id="form_name">
+                <input type="email" placeholder="Введите свою почту:" style="font-size:0.5cm;" aria-label="form2"
+                    id="form_email">
+                <textarea aria-label="Coment"
+                    id="coment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ea!</textarea>
+                <button role="button" aria-label="button" id="button_form">Send</button>
             </div>
             <div class="data">
-                <div class="skype" tabindex="20">
+                <div class="skype" tabindex="20" aria-label="skype_link" id="link_skype">
                     <p>here_your_login_skype</p>
                 </div>
-                <div class="email" tabindex="21">
+                <div class="email" tabindex="21" aria-label="email_link" id="link_email">
                     <a href="https://mail.google.com/mail/u/0/#inbox">ashirov.ayrat@gmail.com</a>
                 </div>
-                <div class="skype" tabindex="22">
-                    <p>8-800-555-35-35</p>
+                <div class="phone" tabindex="22" aria-label="phone_link" id="link_phone">
+                    <p style="color: black;">8-800-555-35-35</p>
                 </div>
             </div>
         </div>
