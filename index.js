@@ -1,99 +1,133 @@
-$('#normal').click(function () {
+$('#Product').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Normal page');
+        mess = new SpeechSynthesisUtterance('Product name');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#blindpage').click(function () {
+$('#Lorem1').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Page for blind people');
+        mess = new SpeechSynthesisUtterance('Put on this page information about your product');
+    mess.lang = 'en-US';
+    snt.speak(mess);
+});
+$('#Lorem2').click(function () {
+    var snt = window.speechSynthesis,
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor, sit amet consectetur adipisicing.');
+    mess.lang = 'en-US';
+    snt.speak(mess);
+});
+$('#Lorem3').click(function () {
+    var snt = window.speechSynthesis,
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor, sit amet consectetur adipisicing.');
+    mess.lang = 'en-US';
+    snt.speak(mess);
+});
+$('#Lorem4').click(function () {
+    var snt = window.speechSynthesis,
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor, sit amet consectetur adipisicing.');
+    mess.lang = 'en-US';
+    snt.speak(mess);
+});
+$('#pict1').click(function () {
+    var snt = window.speechSynthesis,
+        mess = new SpeechSynthesisUtterance('Nice picture ');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#items').click(function () {
+$('#Scrin').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Preferences');
+        mess = new SpeechSynthesisUtterance('Scrinshot');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#mainHeader').click(function () {
+$('#h4-1').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Menu');
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor sit amet.');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
-
-$('#aboutus').click(function () {
+$('#h4-2').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('About us');
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor sit amet.');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
-
-$('#aboutUsText').click(function () {
+$('#h4-3').click(function () {
+    var snt = window.speechSynthesis,
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor sit amet.');
+    mess.lang = 'en-US';
+    snt.speak(mess);
+});
+$('#h4-4').click(function () {
+    var snt = window.speechSynthesis,
+        mess = new SpeechSynthesisUtterance('Lorem ipsum dolor sit amet.');
+    mess.lang = 'en-US';
+    snt.speak(mess);
+});
+$('#Contacts').click(function () {
     var snt = window.speechSynthesis;
-    // mess = new SpeechSynthesisUtterance('Lorem ipsum dolor sit amet consectetur adip totamilique quibusdam rem tenetur sed voluptatibus eveniettotamilique quibusdam rem tenetur sed voluptatibus eveniettotamilique quibusdam rem tenetur sed voluptatibus eveniettotamilique quibusdam rem tenetur sed voluptatibus eveniet');
+    mess = new SpeechSynthesisUtterance('Contacts');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#prefTitle').click(function () {
+$('#forms').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Our preferences');
+        mess = new SpeechSynthesisUtterance('Forms');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
 
 //???????????
-$('#item1').click(function () {
+$('#form_name').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Disability');
+        mess = new SpeechSynthesisUtterance('Form for name');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#item2').click(function () {
+$('#form_email').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Blind');
+        mess = new SpeechSynthesisUtterance('Form for email');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#item3').click(function () {
+$('#coment').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Deaf');
+        mess = new SpeechSynthesisUtterance('Form for comment');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#whatwedo').click(function () {
+$('#button_form').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('What we do');
+        mess = new SpeechSynthesisUtterance('button for entry ');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#helpsdis').click(function () {
+$('#link_skype').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Helps disability people');
+        mess = new SpeechSynthesisUtterance('link skype');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#helpsblind').click(function () {
+$('#link_email').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Helps blindless people');
+        mess = new SpeechSynthesisUtterance('link email');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
 
-$('#foot').click(function () {
+$('#link_phone').click(function () {
     var snt = window.speechSynthesis,
-        mess = new SpeechSynthesisUtterance('Contacts');
+        mess = new SpeechSynthesisUtterance('link phone');
     mess.lang = 'en-US';
     snt.speak(mess);
 });
